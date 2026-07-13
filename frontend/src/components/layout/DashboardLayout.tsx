@@ -14,7 +14,8 @@ import {
   IndianRupee,
   Sun,
   Moon,
-  Library
+  Library,
+  Building
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
@@ -52,6 +53,8 @@ const DashboardLayout = () => {
     { name: 'Attendance', path: '/dashboard/attendance', icon: CalendarDays },
     { name: 'Finance & Fees', path: '/dashboard/fees', icon: IndianRupee },
     { name: 'Library', path: '/dashboard/library', icon: Library },
+    { name: 'Hostels', path: '/dashboard/hostels', icon: Building },
+    { name: 'Room Allocation', path: '/dashboard/hostels/rooms', icon: Building },
     { name: 'Exams', path: '/dashboard/academic/exams', icon: GraduationCap },
     { name: 'Results', path: '/dashboard/academic/results', icon: GraduationCap },
     { name: 'Timetable', path: '/dashboard/academic/timetable', icon: GraduationCap },
