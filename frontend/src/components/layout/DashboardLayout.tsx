@@ -52,6 +52,9 @@ const DashboardLayout = () => {
     { name: 'Attendance', path: '/dashboard/attendance', icon: CalendarDays },
     { name: 'Finance & Fees', path: '/dashboard/fees', icon: IndianRupee },
     { name: 'Library', path: '/dashboard/library', icon: Library },
+    { name: 'Exams', path: '/dashboard/academic/exams', icon: GraduationCap },
+    { name: 'Results', path: '/dashboard/academic/results', icon: GraduationCap },
+    { name: 'Timetable', path: '/dashboard/academic/timetable', icon: GraduationCap },
   ];
 
   return (

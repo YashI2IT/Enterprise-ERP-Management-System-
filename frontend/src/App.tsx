@@ -17,6 +17,9 @@ import StudentFees from './pages/finance/StudentFees';
 import LibraryDashboard from './pages/library/LibraryDashboard';
 import BooksList from './pages/library/BooksList';
 import BookIssues from './pages/library/BookIssues';
+import ExamsDashboard from './pages/academic/ExamsDashboard';
+import ExamResults from './pages/academic/ExamResults';
+import ClassTimetable from './pages/academic/ClassTimetable';
 
 const queryClient = new QueryClient();
 
@@ -47,6 +50,9 @@ function App() {
               <Route path="library" element={<LibraryDashboard />} />
               <Route path="library/books" element={<BooksList />} />
               <Route path="library/issues" element={<BookIssues />} />
+              <Route path="academic/exams" element={<ExamsDashboard />} />
+              <Route path="academic/results" element={<ExamResults />} />
+              <Route path="academic/timetable" element={<ClassTimetable />} />
             </Route>
 
             {/* Fallback route */}
