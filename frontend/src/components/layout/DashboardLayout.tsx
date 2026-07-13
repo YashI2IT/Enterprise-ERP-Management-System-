@@ -13,7 +13,8 @@ import {
   LogOut,
   IndianRupee,
   Sun,
-  Moon
+  Moon,
+  Library
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { toast } from 'sonner';
@@ -50,6 +51,7 @@ const DashboardLayout = () => {
     { name: 'Staff', path: '/dashboard/staff', icon: Users },
     { name: 'Attendance', path: '/dashboard/attendance', icon: CalendarDays },
     { name: 'Finance & Fees', path: '/dashboard/fees', icon: IndianRupee },
+    { name: 'Library', path: '/dashboard/library', icon: Library },
   ];
 
   return (
